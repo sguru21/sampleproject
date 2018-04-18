@@ -1,2 +1,0 @@
-# sampleproject
-for jenkins 
