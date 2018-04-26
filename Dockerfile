@@ -6,3 +6,5 @@ RUN yum -y update && yum clean all && yum install -y libXrender && yum install -
 RUN yum -y install xorg-x11-font-utils.x86_64 && yum install -y xorg-x11-fonts-100dpi.noarch && yum install -y xorg-x11-fonts-75dpi.noarch && yum install -y xorg-x11-fonts-Type1.noarch && yum install -y dbus-x11.x86_64
 
 RUN yum install -y vim
+
+RUN yum install -y firefox
